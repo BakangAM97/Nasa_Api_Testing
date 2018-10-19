@@ -24,7 +24,7 @@ class NasaService
     end
     return true
   end
-
+# =============  LINKS DIAMETER METHODS ===========
   def check_links_key_class key, klass
     @asteroids["near_earth_objects"]["2015-09-08"].each do |element|
       unless element[key].is_a? klass
